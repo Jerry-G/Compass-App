@@ -1,0 +1,36 @@
+name: compass
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter_compass: ^0.5.1
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
+
+# Run this command when changes are made
+# flutter pub run flutter_launcher_icons:main
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icon.png"
+  adaptive_icon_foreground: "assets/icons/icon_fg.png"
+  adaptive_icon_background: "#0D0D0D"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/compass.png
