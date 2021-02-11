@@ -4,4 +4,4 @@ A simple and clean compass app. This app points to magnetic north using the magn
 
 ## Demo
 
-![compass demo](https://raw.githubusercontent.com/Jerry-G/Compass-App/master/demo/demo.gif)
+<img alt="compass demo" src="https://github.com/Jerry-G/Compass-App/blob/master/demo/demo.gif" width="200" />
